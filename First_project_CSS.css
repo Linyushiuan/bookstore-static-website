@@ -1,0 +1,339 @@
+/* Top of the page*/
+body{
+    background-color: rgb(237, 230, 221);
+}
+.title{
+    background-color: mediumaquamarine;
+    color: lightgoldenrodyellow;
+    font-size: 1.6em;
+    text-align: left;
+
+}
+.menu{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 1px;
+    text-align:center;
+  	padding:1px;
+	margin:1px;
+    background-color: darkseagreen;
+}
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    text-align: left;
+    list-style-type: none;
+}
+
+a:link{
+    color: lightgoldenrodyellow;
+}
+a:visited{
+    color: royalblue;
+}
+a:hover{
+    background-color:rgb(160, 205, 190);
+    color: rosybrown;
+}
+a:active{
+    color: royalblue;
+}
+
+/* middle of th page*/
+.middle{
+    background-color: mediumaquamarine;
+}
+
+
+
+/* Butten of the page*/
+.butten{
+    background-color: mediumaquamarine;
+    color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+.butten_space{
+    margin-left: 36px;
+    margin-right: 36px;
+    font-size: 1.5em;
+}
+
+.butten_title{
+    flex:none;
+    width: 20%;
+    font-size: 1.5em;
+}
+
+#li-img_ig{
+    list-style: none;
+    max-width: 2px;
+}
+
+
+#li-img_fb{
+    list-style: none;
+    max-width: 2px;
+}
+
+.title:visited{
+    color: lightgoldenrodyellow;
+}
+
+#wrapper{
+	/* dont be too wide */
+	max-width:1024px;
+	/* center page in wide viewports */
+	margin:auto;
+
+	/*  make flexbox container*/
+	
+
+	/*  min fill all vertical viewport space */
+	
+
+	border:solid 45px mediumaquamarine;
+	border-width:0px 2px;
+	
+}
+
+#section_color{
+    background-color: mediumaquamarine;
+}
+
+
+#fake_link{
+    color: rosybrown;
+}
+
+/* diffent wider viweports*/
+
+@media (min-width:580px){
+    .butten{
+        display: block;
+		padding-left:10px;	
+    }
+    .menu{
+        display: block;
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        background-color: darkseagreen;
+
+    }
+    .menu_nl{
+        padding-left:0px;
+        margin: auto;
+    }
+
+    .new_book{
+        display: block;
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        padding:5px;
+    }
+
+    .img_book3{
+        width: 30%;
+        height: auto;
+        
+    }
+    .p_book3{
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+    }
+    
+}
+@media (min-width:380px){
+    .butten{
+        display: block;
+		padding-left:10px;	
+    }
+    .menu{
+        display: block;
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        background-color: darkseagreen;
+
+    }
+    .menu_nl{
+        padding-left:0px;
+        margin: auto;
+    }
+
+    .new_book{
+        display: block;
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        padding:5px;
+    }
+
+    .img_book3{
+        width: 4cm;
+        height: 5cm;
+        
+    }
+    .p_book3{
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+    }
+    .p_intro{
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+    }
+
+    .product_book{
+        display: block;
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        padding:5px;
+        background-color:  rgb(237, 230, 221);
+
+    }
+    
+    .img_book1{
+        width: 4cm;
+        height: 5cm;
+        
+    }
+    .p_book1{
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+    }
+    .loerem_img_size{
+        width: 2cm;
+        height: 2cm;
+        padding: 2%;
+    }
+    .lorem_text2{
+        text-align: center;
+    }
+
+    .product_book2{
+        text-align:center;
+        padding:18px;
+        border:solid 1px mediumaquamarine;
+        background-color:  rgb(237, 230, 221);
+
+    }
+
+    
+}
+@media ( min-width:800px ){
+	.butten{
+        background-color: mediumaquamarine;
+        color: lightgoldenrodyellow;
+        display: flex;
+        justify-content: left;
+        text-align: center;
+    }
+    .menu{
+        display: inline;
+        margin-left: 20px;
+        margin-right: 1px;
+        text-align:center;
+        padding:0.5px;
+        margin:1px;
+        background-color: darkseagreen;
+    }
+    .menu_nl{
+        padding-left:35px;
+
+    }
+
+    .p_intro{
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+    }
+
+    .new_book{
+        display: flex;
+        justify-content: center;
+        padding:5px;
+    }
+    
+    .img_book3{
+        width: 4cm;
+        height: 5cm;
+        
+    }
+    
+    .p_book3{
+        margin: 2%;
+        width:55%;
+    }
+
+    .product_book{
+        text-align:center;
+        padding:1px;
+        margin:1px;
+        padding:5px;
+        border:solid 3px mediumaquamarine;
+        background-color:  rgb(237, 230, 221);
+
+    }
+    
+    .img_book1{
+        width: 2.5cm;
+        height: 3cm;
+        
+    }
+    .p_book1{
+        width: 70%;
+        padding: 2%;
+    }
+
+    .product_group{
+		display: flex;
+		justify-content: space-between;
+	}
+
+    .loerem_img{
+        display: flex;
+    }
+
+    .loerem_img_size{
+        width: 3cm;
+        height: 3cm;
+        margin: auto;
+        
+    }
+
+    .lorem_text{
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+    .lorem_text2{
+        text-align: center;
+    }
+
+    .product_book2{
+        text-align:center;
+        padding:18px;
+        border:solid 1px mediumaquamarine;
+        background-color:  rgb(237, 230, 221);
+
+    }
+
+
+
+
+
+}
+
